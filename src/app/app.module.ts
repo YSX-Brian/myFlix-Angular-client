@@ -22,6 +22,7 @@ import { DirectorViewComponent } from './director-view/director-view.component';
 import { ProfileComponent } from './profile/profile.component';
 import { MovieViewComponent } from './movie-view/movie-view.component';
 import { compileClassMetadata } from '@angular/compiler';
+import { MovieSynopsisComponent } from './movie-synopsis/movie-synopsis.component';
 
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomePageComponent },
@@ -40,7 +41,8 @@ const appRoutes: Routes = [
     GenreViewComponent,
     DirectorViewComponent,
     ProfileComponent,
-    MovieViewComponent
+    MovieViewComponent,
+    MovieSynopsisComponent
   ],
   imports: [
     BrowserModule,
