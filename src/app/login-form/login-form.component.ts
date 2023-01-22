@@ -32,13 +32,13 @@ export class LoginFormComponent implements OnInit {
       this.dialogRef.close(); // This will close the modal on success!
       console.log(result);
       this.router.navigate(['movies']);
-      this.snackBar.open(result, 'OK', {
-        duration: 2000
+      this.snackBar.open("Login success!", 'OK', {
+        duration: 5000
       });
     }, (result) => {
       console.log(result);
       this.snackBar.open(result, 'OK', {
-        duration: 2000
+        duration: 5000
       });
     });
   }
