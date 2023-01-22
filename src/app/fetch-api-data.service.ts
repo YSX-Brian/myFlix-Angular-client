@@ -30,7 +30,7 @@ export class UserRegistrationService {
         `Error body is: ${error.error}`);
     }
     return throwError(
-      'Something bad happened; please try again later.');
+      'Unable to login or register. Please try again.');
   }
 
   userLogin(userDetails: any): Observable<any> {
