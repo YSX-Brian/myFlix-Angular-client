@@ -27,7 +27,7 @@ import { MovieSynopsisComponent } from './movie-synopsis/movie-synopsis.componen
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomePageComponent },
   { path: 'movies', component: MovieCardComponent },
-  { path: 'genre', component: GenreViewComponent },
+  { path: 'profile', component: ProfileComponent },
   { path: '', redirectTo: 'welcome', pathMatch: 'prefix' },
 ];
 
