@@ -1,4 +1,14 @@
-<div style="display: flex;">
+<mat-toolbar>
+  <h2>MyFlix!</h2>
+  <span class="example-spacer"></span>
+  <button mat-button color="primary" class="profile-button" (click)="goToProfile()">
+    Profile
+  </button>
+  <button mat-button color="primary" (click)="logOut()">
+    Logout
+  </button>
+</mat-toolbar>
+<div class="card-wrapper" style="display: flex;">
   <mat-card *ngFor="let movie of movies;" style="flex: 1 1 auto;" class="card-padding">
     <mat-card-content></mat-card-content>
     <mat-card-header>
