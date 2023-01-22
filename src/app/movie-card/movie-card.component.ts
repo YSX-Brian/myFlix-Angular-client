@@ -92,4 +92,13 @@ export class MovieCardComponent implements OnInit {
     });
   }
 
+  goToProfile(): void {
+    this.router.navigate(["profile"]);
+  }
+
+  logOut(): void {
+    localStorage.clear();
+    this.router.navigate(["welcome"]);
+  }
+
 }
