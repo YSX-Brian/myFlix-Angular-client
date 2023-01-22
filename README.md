@@ -3,6 +3,18 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.  
 Visit the website here: https://megidolaonn.github.io/myFlix-Angular-client/  
 
+Main Page:   
+
+![main-img](img/myFlix-Angular-main.png.png)
+
+Welcome Screen:  
+
+![welcome-img](img/myFlix-Angular-welcome.png)
+
+Profile Page:  
+
+![profile-img](img/myFlix-Angular-acct.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
