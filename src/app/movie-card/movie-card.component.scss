@@ -1,0 +1,14 @@
+.card-padding {
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+mat-card img {
+  object-fit: cover;
+  /*this makes the image in src fit to the size specified below*/
+  width: 95%;
+  height: 80%;
+  margin: auto;
+  margin-top: 14px;
+}
