@@ -5,7 +5,7 @@ Visit the website here: https://megidolaonn.github.io/myFlix-Angular-client/
 
 Main Page:   
 
-![main-img](img/myFlix-Angular-main.png.png)
+![main-img](img/myFlix-Angular-main.png)
 
 Welcome Screen:  
 
