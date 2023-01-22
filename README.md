@@ -9,7 +9,7 @@ Main Page:
 
 Welcome Screen:  
 
-![welcome-img](img/myFlix-Angular-welcome.png)
+![welcome-img](img/myFlix-Angular-welcome2.png)
 
 Profile Page:  
 
