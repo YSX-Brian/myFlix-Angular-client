@@ -28,6 +28,11 @@ export class ProfileComponent implements OnInit {
     this.getUserInfo();
   }
 
+  /**
+   * Fetch user data onInit
+   * @returns object with username, email, birthday
+   * @function getUserInfo
+   */
   getUserInfo(): void {
     this.fetchApiData.getUser().subscribe((resp: any) => {
       this.user = resp;
@@ -37,6 +42,10 @@ export class ProfileComponent implements OnInit {
     });
   }
 
+  /**
+   * Update username, password, email, or birthday
+   * @function updateUserInfo
+   */
   updateUserInfo(): void {
     this.fetchApiData.editUser(this.updatedUser).subscribe((result) => {
       console.log(result);
@@ -57,6 +66,10 @@ export class ProfileComponent implements OnInit {
     });
   }
 
+  /**
+   * Delete user data for the current user
+   * @function deleteAccount
+   */
   deleteAccount(): void {
     if (confirm("Please confirm account deletion.")) {
       this.router.navigate(["welcome"]).then(() => {
@@ -75,10 +88,18 @@ export class ProfileComponent implements OnInit {
     }
   }
 
+  /**
+   * route to movies via button click
+   * @function goToMovies
+   */
   goToMovies(): void {
     this.router.navigate(["movies"]);
   }
 
+  /**
+   * log out the current user
+   * @function logOut
+   */
   logOut(): void {
     localStorage.clear();
     this.router.navigate(["welcome"]);

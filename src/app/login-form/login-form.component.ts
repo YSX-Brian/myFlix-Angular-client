@@ -24,7 +24,10 @@ export class LoginFormComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // This is the function responsible for sending the form inputs to the backend
+  /**
+  * log in the user and save token and username in localstorage
+  * @function loginUser
+  */
   loginUser(): void {
     this.fetchApiData.userLogin(this.userData).subscribe((result) => {
       localStorage.setItem("token", result.token);
